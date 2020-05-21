@@ -1,6 +1,6 @@
 # rcs
 #This website is created by roopchandsai
-MIT License
+#MIT License
 
 Copyright (c) 2020 roopchandsai
 
