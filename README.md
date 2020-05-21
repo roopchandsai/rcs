@@ -1,5 +1,6 @@
 # rcs
-#This website is created by roopchandsai
+#This website is created by roopchandsai.
+
 #MIT License
 
 Copyright (c) 2020 roopchandsai
