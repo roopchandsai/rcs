@@ -1,0 +1,1257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Roop Chand Sai</title>
+<meta name="description" content="This is portfolio of Roop Chand Sai">
+<meta name="keywords" content="Roop Chand Sai, roopchandsai, roop chand sai, Roop Chand Sai, Roopchand sai, Roopchand Sai, RoopChand Sai">
+<meta name="author" content="Roop Chand Sai">
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="icon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="css/base/jquery-ui.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/RCS_Website.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/util.min.js"></script>
+<script src="js/collapse.min.js"></script>
+<script src="js/dropdown.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wb.conveyerbelt.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#LayoutGrid1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top }, 600, 'easeOutCirc');
+   });
+   $('#ThemeableMenu2 .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.ThemeableMenu2-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+   $("a[href*='#skills']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_skills').offset().top }, 600, 'linear');
+   });
+   $("#progressbar_uidesign").progressbar(
+   {
+      value: 90
+   });
+   $("#progressbar_jquery").progressbar(
+   {
+      value: 90
+   });
+   $("#progressbar_php").progressbar(
+   {
+      value: 85
+   });
+   $("#progressbar_html").progressbar(
+   {
+      value: 95
+   });
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top }, 600, 'linear');
+   });
+   $("#Progressbar1").progressbar(
+   {
+      value: 80
+   });
+   $("#Progressbar2").progressbar(
+   {
+      value: 85
+   });
+   $("#Progressbar3").progressbar(
+   {
+      value: 82
+   });
+   $("#Progressbar4").progressbar(
+   {
+      value: 90
+   });
+   $("#Progressbar6").progressbar(
+   {
+      value: 75
+   });
+   $("#Progressbar5").progressbar(
+   {
+      value: 80
+   });
+   $("#Progressbar7").progressbar(
+   {
+      value: 75
+   });
+   $("#SlideShow1").conveyerbelt({speed:3, spacing: 5});
+   $("a[data-rel='gallery']").attr('rel', 'gallery');
+   $("#gallery").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("#SlideShow2").conveyerbelt({speed:4, spacing: 5});
+   $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
+   $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("a[data-rel='PhotoGallery2']").attr('rel', 'PhotoGallery2');
+   $("#PhotoGallery2").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top-80 }, 600, 'easeInQuad');
+   });
+});
+</script>
+
+<script>
+$(document).ready(function()
+{
+   var $progressbars = $('.ui-progressbar');
+   
+   $progressbars.each(function() 
+   {
+     var $obj = $(this);
+     $obj.data('value', $obj.progressbar('option', 'value'));
+     $obj.data('done', false);
+     $obj.progressbar('option', 'value', 0);
+    
+     $obj.css('position', 'relative');
+     $obj.append('<div class="progress-label">0%</div>');
+   });
+   $(window).bind('scroll', function() 
+   {
+      $progressbars.each(function() 
+      {
+         var $obj = $(this);
+         if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
+         {
+            $obj.data('done', true);
+            $obj.animate({scroll: 1}, 
+            { 
+               duration: 3000, 
+               step: function(now) 
+               {
+                  var $obj = $(this);
+                  var val = Math.round($obj.data('value') * now);
+                  $obj.progressbar('option', 'value', val);
+                  $obj.find('.progress-label').text(val + '%').css('color', (val > 50) ? "#FFFFFF" : "#265A88");
+               }
+            });
+         }
+      });
+   }).triggerHandler('scroll');
+});
+</script>
+</head>
+<body>
+<div id="container">
+
+<div id="wb_Text71" style="position:absolute;left:533px;top:1480px;width:418px;height:15px;z-index:194;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp; </span></div>
+</div>
+<div id="wb_LayoutGrid34">
+<div id="LayoutGrid34">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text75">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Breadcrumb2" style="display:inline-block;width:100%;z-index:2;vertical-align:top;">
+<ul id="Breadcrumb2">
+<li><a href="https://roopchandsai.github.io/rcs/">Roop Chand Sai</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_ThemeableMenu2" style="display:inline-block;width:100%;z-index:3;">
+<div id="ThemeableMenu2" class="ThemeableMenu2" style ="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="Hamburger Menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu2-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu2-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="./index.html#Introduction" class="nav-link">Introduction</a>
+</li>
+<li class="nav-item">
+<a href="./index.html#skills" class="nav-link">Skills</a>
+</li>
+<li class="nav-item">
+<a href="./index.html#education" class="nav-link">Education</a>
+</li>
+<li class="nav-item">
+<a href="./index.html#certipicates" title="Certificates" class="nav-link">Certificates</a>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Major Project<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item dropdown-item">
+<a href="./index.html#majorproject" title="IOT based Voice Automated Smart Wearable Watch for women&apos;s Rescue and Health Monitoring" class="nav-link">IOT based Smart Watch</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./index.html#minorproject1" class="nav-link">Real-Time Image Recognition (opencv)</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./index.html#minorproject2" class="nav-link">IOT Smart Android Application</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./index.html#miniprojects" class="nav-link">Other Mini Projects</a>
+</li>
+<li class="nav-item dropdown-item">
+<a href="./index.html#extracurricular" class="nav-link">Extra-Curricular Activities</a>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a href="./index.html#contact" class="nav-link">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Introduction">
+<div id="Introduction">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:6;">
+<img src="images/rcs.png" id="Image1" alt="" width="429" height="605">
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Heading3" style="display:inline-block;width:100%;z-index:7;">
+<h1 id="Heading3">Roop Chand Sai</h1>
+</div>
+<div id="wb_Text3">
+<span style="background-color:#FFFFFF;color:#808080;font-family:Arial;font-size:16px;"><strong>B.Tech, Electronics and Communication Engineer.<br></strong></span><span style="background-color:#FFFFFF;color:#808080;font-family:Calibri;font-size:15px;"><br><strong><a href="https://www.vignan.ac.in/" target="_blank" >VIGNAN'S FOUNDATION FOR SCIENCE, TECHNOLOGY AND RESEARCH</a></strong><br><br><br><strong>Email&nbsp;&nbsp; </strong>: <a href="mailto:roopchandsai98@gmail.com" target="_blank" >roopchandsai98@gmail.com</a><br><strong>Phone</strong> : +91 <a href="tel:7013016691" target="_blank" >7013016691</a></span>
+</div>
+<div id="wb_IconFont1" style="display:inline-block;width:51px;height:37px;text-align:center;z-index:9;">
+<a href="https://www.linkedin.com/in/roop-chand-sai-kanchi-232380198"><div id="IconFont1"><i class="fa fa-linkedin-square" target="_blank"></i></div></a>
+</div>
+<div id="wb_Image2" style="display:inline-block;width:44px;height:36px;z-index:10;">
+<a href="mailto:roopchandsai98@gmail.com"  target="_blank" ><img src="images/Gmail_icon_(2020).svg.png" id="Image2" alt="" width="44" height="33"></a>
+</div>
+<div id="wb_IconFont2" style="display:inline-block;width:51px;height:36px;text-align:center;z-index:11;">
+<a href="https://github.com/roopchandsai" target="_blank" ><div id="IconFont2"><i class="fa fa-github"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="FlexContainer1">
+<a id="Button1" href="./pdf/r.pdf"  target="_blank" style="display:block;width:231px;height:36px;z-index:12;">Download Resume</a>
+</div>
+<div id="wb_FlexContainer2">
+<div id="FlexContainer2">
+<div id="wb_Heading1" style="display:inline-block;width:381px;z-index:14;">
+<h1 id="Heading1"> Career Objective</h1>
+</div>
+<div id="wb_FlexContainer3">
+<div id="FlexContainer3">
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Arial;font-size:15px;">Interested in Latest Technologies and open for opportunities where I can utilize Technical and Analytical skills and grow along with the organisation </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_skills">
+<div id="skills">
+<div class="row">
+<div class="col-1">
+<div id="wb_IconFont3" style="display:inline-block;width:33px;height:43px;text-align:center;z-index:17;">
+<div id="IconFont3"><i class="fa fa-address-card"></i></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text4">
+<span style="color:#4F4F4F;font-family:Arial;font-size:21px;"><strong>Technical skills </strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<label for="" id="Label5" style="display:block;width:100%;line-height:16px;z-index:19;">Python3</label>
+<div id="progressbar_html"  style="display:block;width:100%;height:28px;z-index:20;">
+</div>
+<label for="" id="Label6" style="display:block;width:100%;line-height:16px;z-index:21;">C / Embedded C</label>
+<div id="progressbar_uidesign"  style="display:block;width:100%;height:28px;z-index:22;">
+</div>
+<label for="" id="Label7" style="display:block;width:100%;line-height:16px;z-index:23;">HTML / CSS / JavaScript</label>
+<div id="progressbar_jquery"  style="display:block;width:100%;height:28px;z-index:24;">
+</div>
+<label for="" id="Label8" style="display:block;width:100%;line-height:16px;z-index:25;">Unix / Bash</label>
+<div id="progressbar_php"  style="display:block;width:100%;height:28px;z-index:26;">
+</div>
+<label for="" id="Label9" style="display:block;width:100%;line-height:16px;z-index:27;">Android App Development</label>
+<div id="Progressbar5"  style="display:block;width:100%;height:28px;z-index:28;">
+</div>
+<label for="" id="Label10" style="display:block;width:100%;line-height:16px;z-index:29;">MySQL / RDBMS</label>
+<div id="Progressbar6"  style="display:block;width:100%;height:28px;z-index:30;">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_IconFont4" style="display:inline-block;width:33px;height:48px;text-align:center;z-index:34;">
+<div id="IconFont4"><i class="fa fa-user-circle"></i></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text2">
+<span style="color:#4F4F4F;font-family:Arial;font-size:21px;"><strong>Personal skills </strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<label for="" id="Label1" style="display:block;width:100%;line-height:16px;z-index:36;">Communication</label>
+<div id="Progressbar4"  style="display:block;width:100%;height:28px;z-index:37;">
+</div>
+<label for="" id="Label2" style="display:block;width:100%;line-height:16px;z-index:38;">professional Ethics</label>
+<div id="Progressbar1"  style="display:block;width:100%;height:28px;z-index:39;">
+</div>
+<label for="" id="Label3" style="display:block;width:100%;line-height:16px;z-index:40;">Business English</label>
+<div id="Progressbar2"  style="display:block;width:100%;height:28px;z-index:41;">
+</div>
+<label for="" id="Label4" style="display:block;width:100%;line-height:16px;z-index:42;">Team Work</label>
+<div id="Progressbar3"  style="display:block;width:100%;height:28px;z-index:43;">
+</div>
+<label for="" id="Label11" style="display:block;width:100%;line-height:16px;z-index:44;">Leadership</label>
+<div id="Progressbar7"  style="display:block;width:100%;height:28px;z-index:45;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_education" style="display:inline-block;width:100%;z-index:75;">
+<h1 id="education">Education</h1>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<table style="display:table;width:100%;height:112px;z-index:76;" id="Table1">
+<tr>
+<td class="cell0"><p style="font-size:13px;line-height:16px;"><span style="font-size:16px;line-height:18px;font-weight:bold;">&nbsp;</span><span style="font-size:16px;line-height:18px;font-weight:bold;color:#FFFFFF;">Duration</span></p></td>
+<td class="cell1"><p style="font-weight:bold;">Location</p></td>
+<td class="cell1"><p style="font-weight:bold;"> Institute</p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;"><span style="font-size:16px;line-height:18px;font-weight:bold;">Qualification</span></p></td>
+<td class="cell1"><p style="font-size:13px;line-height:16px;"><span style="font-size:16px;line-height:18px;font-weight:bold;">Result</span></p></td>
+</tr>
+<tr>
+<td class="cell2"><p> 2016-20</p></td>
+<td class="cell3"><p> GUNTUR</p></td>
+<td class="cell3"><p> VFSTR University</p></td>
+<td class="cell3"><p>B. Tech, ECE </p></td>
+<td class="cell3"><p> 8.62 CGPA </p></td>
+</tr>
+<tr>
+<td class="cell3"><p> 2014-16</p></td>
+<td class="cell3"><p> HYDERABAD</p></td>
+<td class="cell3"><p> Narayana Jr. college (Intermediate)</p></td>
+<td class="cell3"><p>Intermediate, MPC</p></td>
+<td class="cell3"><p> 94%</p></td>
+</tr>
+<tr>
+<td class="cell3"><p> 2013-14</p></td>
+<td class="cell3"><p> HYDERABAD</p></td>
+<td class="cell3"><p>(SSC Board) Poornima vidya Nikethan High school</p></td>
+<td class="cell3"><p>S.S.C Board</p></td>
+<td class="cell3"><p> 9.5 GPA</p></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Heading4" style="display:inline-block;width:100%;z-index:77;">
+<h1 id="Heading4">Technical Skills</h1>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text63">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text5">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:19px;"><strong>Programming Languages known are:</strong></span>
+</div>
+<div id="wb_Text70">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text7">
+<ul style="font-size:13px;list-style-type:disc;">
+<li style="margin:0 0 0 24px;"><span style="font-size:16px;">C / Embedded C</span>
+</li>
+</ul>
+</div>
+<div id="wb_Text8">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Python3 (Data Science, Machine Learning)
+</li>
+</ul>
+</div>
+<div id="wb_Text9">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">HTML / CSS / JavaScript (Web Development)
+</li>
+</ul>
+</div>
+<div id="wb_Text10">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">SQL and Relational Databases
+</li>
+</ul>
+</div>
+<div id="wb_Text11">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Android App development
+</li>
+</ul>
+</div>
+<div id="wb_Text20">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">&nbsp; </span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text64">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text6">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:19px;"><strong>Domain:</strong></span>
+</div>
+<div id="wb_Text72">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text12">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Internet of Things and Embedded systems
+</li>
+</ul>
+</div>
+<div id="wb_Text13">
+<ul style="font-size:13px;list-style-type:disc;">
+<li style="margin:0 0 0 24px;"><span style="font-size:16px;">Embedded Micro-computers and Micro Controllers</span>
+</li>
+</ul>
+</div>
+<div id="wb_Text14">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">IOT and EIS 
+</li>
+</ul>
+</div>
+<div id="wb_Text15">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Digital Skills : Artificial Intelligence
+</li>
+</ul>
+</div>
+<div id="wb_Text16">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Block chain Essentials
+</li>
+</ul>
+</div>
+<div id="wb_Text21">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">&nbsp; </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid10">
+<div id="LayoutGrid10">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text19">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text17">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:19px;"><strong>Platform : </strong>Linux / Windows</span>
+</div>
+<div id="wb_Text18">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:36px;"><strong>Tools : </strong>MATLAB, Visual Studio, Android Studio, Qt Designer, github, Anaconda, Multisim, Xilinx VHDL / Verilog, Cadence Virtuoso, Arduino, Raspberry pi.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid11">
+<div id="LayoutGrid11">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Heading5" style="display:inline-block;width:100%;z-index:99;">
+<h1 id="Heading5">Work Experience</h1>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid12">
+<div id="LayoutGrid12">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Heading6" style="display:inline-block;width:100%;z-index:100;">
+<h1 id="Heading6">Tata Consultancy Services (TCS)</h1>
+</div>
+<div id="wb_Text68">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text22">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:19px;"><strong>Name : </strong>Kanchi Roop Chand Sai</span>
+</div>
+<div id="wb_Text69">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text23">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:19px;"><strong>Roles : </strong>Engineer.EIS.Automotive Electronics</span>
+</div>
+<div id="wb_Text67">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text24">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;line-height:19px;"><strong>Responsibility : </strong>Electronics Component Engineer</span>
+</div>
+<div id="wb_Text59">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_certipicates" style="display:inline-block;width:100%;z-index:108;">
+<h5 id="certipicates">CERTIFICATIONS</h5>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
+<div class="row">
+<div class="col-1">
+<ul id="SlideShow1" style="overflow:hidden;border-radius:4px;z-index:109;">
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_01.jpg" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_02.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_03.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_04.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_05.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_06.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_07.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_08.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_09.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_10.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_11.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_12.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_13.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_14.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_15.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_16.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_17.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_18.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_19.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_20.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_21.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_22.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_23.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_24.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_25.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_26.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_27.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_28.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_29.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_30.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_31.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_32.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_33.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_34.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_35.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_36.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_37.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_38.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_39.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_40.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_41.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_42.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_43.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_46.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_47.jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="1584" height="1224" src="images/Binder1_Page_48.jpg" style ="display:none;" alt="" title=""></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid15">
+<div id="LayoutGrid15">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text25">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• <a href="https://courses.cognitiveclass.ai/certificates/75b00b97c3804fd78715734f5a33f264" target="_blank" >Python3 for Data science provided by Cognitive class ai.</a></span>
+</div>
+<div id="wb_Text26">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://courses.cognitiveclass.ai/certificates/17dba1bd14754f02a0ec894b6575a12e" target="_blank" >• Machine Learning with Python provided by Cognitive class ai.</a></span>
+</div>
+<div id="wb_Text27">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.coursera.org/account/accomplishments/verify/3QRMLHMYP9G3?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_content=cert_image" target="_blank" >• Internet of things and Embedded systems certification from Coursera organization.</a></span>
+</div>
+<div id="wb_Text28">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.futurelearn.com/certificates/rf1dgfy" target="_blank" >•Digital Skills : Artificial Intelligence</a></span>
+</div>
+<div id="wb_Text29">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://courses.cognitiveclass.ai/certificates/615cd4d4979741fb996d5641590439d4" target="_blank" >• Blockchain Essentials provided by developerWorks an online course on Cognitive Class.</a></span>
+</div>
+<div id="wb_Text30">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://courses.cognitiveclass.ai/certificates/3a55c8f14d5c471286e43f16b1ea1864" target="_blank" >• SQL and Relational Databases provided by Big Data University</a></span>
+</div>
+<div id="wb_Text31">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• Android App development using MIT App inventor tools.</span>
+</div>
+<div id="wb_Text32">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://courses.cognitiveclass.ai/certificates/3a55c8f14d5c471286e43f16" target="_blank" >• SQL and Relational Databases by Cognitive Class</a></span>
+</div>
+<div id="wb_Text33">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.coursera.org/verify/A72ZDY6K3WZN" target="_blank" >• Raspberry pi and python programming certification from Coursera organization.</a></span>
+</div>
+<div id="wb_Text34">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.coursera.org/verify/N4FCRE2E3J9S" target="_blank" >• Programming for the Internet of Things Project</a></span>
+</div>
+<div id="wb_Text35">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• 5G communications, Applications and Technologies.</span>
+</div>
+<div id="wb_Text36">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.ude.my/UC-CMXE6HPE" target="_blank" >• IOT certification from Udemy organization.</a></span>
+</div>
+<div id="wb_Text37">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://roopchandsai.github.io/rcs/#" target="_blank" >• Hadoop Distributed File System</a></span>
+</div>
+<div id="wb_Text38">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.coursera.org/verify/9NK57F4Q7YJN" target="_blank" >• Interfacing with the Raspberry Pi</a></span>
+</div>
+<div id="wb_Text39">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><a href="https://www.coursera.org/verify/PKUKT9QUZVA8" target="_blank" >• Interfacing with Arduino.</a></span>
+</div>
+<div id="wb_Text40">
+<span style="color:#000000;font-family:Arial;font-size:17px;"><a href="https://www.coursera.org/verify/RCLJ6B4KHSRK" target="_blank" >• The Arduino Platform and C Programming</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid16">
+<div id="LayoutGrid16">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_majorproject" style="display:inline-block;width:100%;z-index:126;">
+<h1 id="majorproject">MAJOR PROJECT</h1>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid17">
+<div id="LayoutGrid17">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading9" style="display:inline-block;width:100%;z-index:127;">
+<h1 id="Heading9">IOT based Voice Automated Smart Wearable Watch for women's Rescue and Health Monitoring</h1>
+</div>
+<div id="wb_Text41">
+<span style="color:#4F4F4F;font-family:Arial;font-size:16px;"><strong> <br>By : </strong>Kanchi RoopChand Sai<br><br><strong>Duration : </strong>6 Months<br><br><strong>Role : </strong>Engineer<br><br>This IOT project mainly focuses on Live video streaming of incident along with GPS co-ordinates to the Police Authorities. (web server to client access protocols based on IP address). Real-Time sensing of Heart pulse and Body Temperature with Speech Recognition Assistant and OLED Interface<br>&nbsp; <br>&nbsp; </span>
+</div>
+<a id="Button2" href="./pdf/review2.pptx" style="display:inline-block;width:354px;height:34px;z-index:129;" target="_blank" >Download Major-Project (PPT)</a>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_galleryPhotoGrid">
+<div id="galleryPhotoGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_gallery" style="display:inline-block;width:100%;z-index:130;">
+<div id="gallery">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/mp1.jpg" data-rel="" title="DIGITAL CLOCK GUI"><img alt="Real - Time Clock UI" src="images/mp1.jpg" class="image" title="DIGITAL CLOCK GUI" width="414" height="445"></a>
+<div class="caption">DIGITAL CLOCK GUI<div class="description">Real - Time Clock UI</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="images/m2.jpg" data-rel="" title="GPS Co-ordinates"><img alt="Real - Ttime GPS Location Tracking using NEO 6M GPS Module" src="images/m2.jpg" class="image" title="GPS Co-ordinates" width="414" height="425"></a>
+<div class="caption">GPS Co-ordinates<div class="description">Real - Ttime GPS Location Tracking using NEO 6M GPS Module</div>
+</div>
+      </div>
+      <div class="clearfix visible-col2"></div>
+      <div class="thumbnail">
+         <a href="images/m3.jpg" data-rel="" title="Live video streaming"><img alt="Streaming Live video onto a web page that we can access in any Client device that has a browser and is connected to the same network the Pi is." src="images/m3.jpg" class="image" title="Live video streaming" width="414" height="311"></a>
+<div class="caption">Live video streaming<div class="description">Streaming Live video onto a web page that we can access in any Client device that has a browser and is connected to the same network the Pi is.</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="images/m4.jpg" data-rel="" title="Heart-Pulse Rate sensing"><img alt="Monitoring Heart Pulse Rate sensor which detects number of heart beats/Pulses per minute using Raspberry Pi and Pulse sensor" src="images/m4.jpg" class="image" title="Heart-Pulse Rate sensing" width="414" height="357"></a>
+<div class="caption">Heart-Pulse Rate sensing<div class="description">Monitoring Heart Pulse Rate sensor which detects number of heart beats/Pulses per minute using Raspberry Pi and Pulse sensor</div>
+</div>
+      </div>
+      <div class="clearfix visible-col2"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid18">
+<div id="LayoutGrid18">
+<div class="row">
+<div class="col-1">
+<ul id="SlideShow2" style="overflow:hidden;border-radius:4px;z-index:131;">
+<li><img class="image" width="291" height="312" src="images/(0).jpg" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(1).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(2).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(3).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(4).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(5).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(6).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(7).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(8).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(9).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(10).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(11).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(12).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(14).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(15).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(16).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(17).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(18).jpg" style ="display:none;" alt="" title=""></li>
+<li><img class="image" width="291" height="312" src="images/(19).jpg" style ="display:none;" alt="" title=""></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid19">
+<div id="LayoutGrid19">
+<div class="row">
+<div class="col-1">
+<div id="wb_minorproject1" style="display:inline-block;width:100%;z-index:132;">
+<h1 id="minorproject1">Minor Project 1</h1>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid20">
+<div id="LayoutGrid20">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading7" style="display:inline-block;width:100%;z-index:133;">
+<h1 id="Heading7">Real-Time Image Recognition (opencv)</h1>
+</div>
+<div id="wb_Text42">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">By : Roop Chand Sai</span>
+</div>
+<div id="wb_Text43">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">Real Time Facial Recognition using open computer vision and python libraries.</span>
+</div>
+<div id="wb_Text44">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">Captures multiple images of Faces from multiple users to be stored on a DataSet (dataset directory) and compares them with Trained dataset </span>
+</div>
+<div id="wb_Text45">
+&nbsp;
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid22">
+<div id="LayoutGrid22">
+<div class="row">
+<div class="col-1">
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:138;">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/cv1.jpg" data-rel="" title="(GUI) Desktop Application Development"><img alt="PyQt5-Tools and Qt Designer" src="images/cv1.jpg" class="image" title="(GUI) Desktop Application Development" width="414" height="307"></a>
+<div class="caption">(GUI) Desktop Application Development<div class="description">PyQt5-Tools and Qt Designer</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="images/cv2.jpg" data-rel="" title="Image Recognition"><img alt="Real Time Facial Recognition using open computer vision and python libraries." src="images/cv2.jpg" class="image" title="Image Recognition" width="414" height="330"></a>
+<div class="caption">Image Recognition<div class="description">Real Time Facial Recognition using open computer vision and python libraries.</div>
+</div>
+      </div>
+      <div class="clearfix visible-col2"></div>
+      <div class="thumbnail">
+         <a href="images/cv3.jpg" data-rel="" title="Eye Detection and Smile Detection"><img alt="Opencv libraries to detect eye and smile detection by converting images to gray scale edge detection" src="images/cv3.jpg" class="image" title="Eye Detection and Smile Detection" width="414" height="332"></a>
+<div class="caption">Eye Detection and Smile Detection<div class="description">Opencv libraries to detect eye and smile detection by converting images to gray scale edge detection</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="images/cv4.jpg" data-rel="" title="Training / Optimization of Datasets"><img alt="Training the input data of Multiple Faces to be optimized by reducing pixel rate and resolutions along with gray scale images" src="images/cv4.jpg" class="image" title="Training / Optimization of Datasets" width="414" height="352"></a>
+<div class="caption">Training / Optimization of Datasets<div class="description">Training the input data of Multiple Faces to be optimized by reducing pixel rate and resolutions along with gray scale images</div>
+</div>
+      </div>
+      <div class="clearfix visible-col2"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid21">
+<div id="LayoutGrid21">
+<div class="row">
+<div class="col-1">
+<div id="wb_minorproject2" style="display:inline-block;width:100%;z-index:139;">
+<h1 id="minorproject2"><br>Minor Project 2<br></h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid23">
+<div id="LayoutGrid23">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading11" style="display:inline-block;width:100%;z-index:140;">
+<h1 id="Heading11">IOT Based Voice Automated Smart Android Application for Women’s Rescue </h1>
+</div>
+<div id="wb_Text46">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">By : Roop Chand Sai</span>
+</div>
+<div id="wb_Text47">
+<span style="color:#000000;font-family:Arial;font-size:16px;line-height:27px;">This Android App was created using MIT App Inventor tools where we can develop android applications using Logical Building Blocks instead of programming the application from scratch. </span>
+</div>
+<div id="wb_Text48">
+<span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;">The proposal system includes: </span>
+</div>
+<div id="wb_Text49">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Live GPS Location Tracking 
+</li>
+</ul>
+</div>
+<div id="wb_Text50">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Live video streaming of incident
+</li>
+</ul>
+</div>
+<div id="wb_Text51">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Voice recognized Speech assistant
+</li>
+</ul>
+</div>
+<div id="wb_Text52">
+<ul style="list-style-type:disc;">
+<li style="margin:0 0 0 24px;">Sensors interfacing and sharing.
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid24">
+<div id="LayoutGrid24">
+<div class="row">
+<div class="col-1">
+<div id="wb_PhotoGallery2" style="display:inline-block;width:100%;z-index:148;">
+<div id="PhotoGallery2">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="1.jpeg" data-rel="" title="UI Interface"><img alt="Live location tracking and sharing" src="1.jpeg" class="image" title="UI Interface" width="414" height="596"></a>
+<div class="caption">UI Interface<div class="description">Live location tracking and sharing</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="2.jpeg" data-rel="" title="Voice recognition"><img alt="Speech analysis through google speech-to-text module" src="2.jpeg" class="image" title="Voice recognition" width="414" height="415"></a>
+<div class="caption">Voice recognition<div class="description">Speech analysis through google speech-to-text module</div>
+</div>
+      </div>
+      <div class="clearfix visible-col2"></div>
+      <div class="thumbnail">
+         <a href="3.jpeg" data-rel="" title="Sensors interfacing and sharing."><img alt="sensing data such as pedometer, Barometer, Thermometer, Light Sensing, Proximity at the incident in real time." src="3.jpeg" class="image" title="Sensors interfacing and sharing." width="414" height="384"></a>
+<div class="caption">Sensors interfacing and sharing.<div class="description">sensing data such as pedometer, Barometer, Thermometer, Light Sensing, Proximity at the incident in real time.</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="4.jpeg" data-rel="" title="MIT App Inventor Tool"><img alt="Logical Building Blocks used to create this Android Application using MIT App inventor tool." src="4.jpeg" class="image" title="MIT App Inventor Tool" width="414" height="338"></a>
+<div class="caption">MIT App Inventor Tool<div class="description">Logical Building Blocks used to create this Android Application using MIT App inventor tool.</div>
+</div>
+      </div>
+      <div class="clearfix visible-col2"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid25">
+<div id="LayoutGrid25">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_miniprojects" style="display:inline-block;width:100%;z-index:149;">
+<h1 id="miniprojects">Other Mini-Projects</h1>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid36">
+<div id="LayoutGrid36">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text76">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text77">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• Weather Monitoring system using Arduino microcontroller.</span>
+</div>
+<div id="wb_Text78">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text79">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• IOT based Twitter notifications feedback indicator.</span>
+</div>
+<div id="wb_Text80">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text81">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• Speech processing and image processing using MATLAB.</span>
+</div>
+<div id="wb_Text82">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text83">
+<span style="color:#000000;font-family:Arial;font-size:16px;">• Digital thermometer using LM35 sensor Arduino micro controller.</span>
+</div>
+<div id="wb_Text84">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text85">
+&nbsp;
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid29">
+<div id="LayoutGrid29">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text87">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; </span>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid26">
+<div id="LayoutGrid26">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading13" style="display:inline-block;width:100%;z-index:161;">
+<h1 id="Heading13">Area of Interests</h1>
+</div>
+<div id="wb_Text53">
+<span style="color:#696969;font-family:Arial;font-size:16px;line-height:27px;">Internet of Things and Embedded Systems, Web Applications Development, AI and Machine Learning with Python, Game Development</span>
+</div>
+<div id="wb_Text65">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+<div id="wb_Text54">
+<span style="color:#696969;font-family:Arial;font-size:16px;line-height:19px;"><strong>Languages known : </strong>English, Hindi, Telugu.</span>
+</div>
+<div id="wb_Text55">
+&nbsp;
+</div>
+<div id="wb_Text60">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid28">
+<div id="LayoutGrid28">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading15" style="display:inline-block;width:100%;z-index:167;">
+<h1 id="Heading15">Hobbies </h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid27">
+<div id="LayoutGrid27">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading14" style="display:inline-block;width:100%;z-index:168;">
+<h1 id="Heading14">Game Development & 3D Graphics Design </h1>
+</div>
+<div id="wb_Text56">
+<span style="color:#696969;font-family:Arial;font-size:16px;">By :&nbsp; Roop Chand Sai</span>
+</div>
+<div id="wb_Text66">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text57">
+<span style="color:#696969;font-family:Arial;font-size:16px;line-height:18px;">Game Design and Development using Unity Game engine, 3d Graphics Modeling using Blender</span>
+</div>
+<div id="wb_Text58">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">&nbsp;&nbsp; </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid38">
+<div id="LayoutGrid38">
+<div class="row">
+<div class="col-1">
+<div id="wb_extracurricular" style="display:inline-block;width:100%;z-index:173;">
+<h1 id="extracurricular">Extra - Curricular Activities</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid39">
+<div id="LayoutGrid39">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text91">
+<span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp;&nbsp; </span>
+</div>
+<div id="wb_Text90">
+<span style="color:#696969;font-family:Arial;font-size:16px;">• Volunteered in NSS activity contributing towards ‘Swatch Bharath yojana’ service.<br><br>• Co-ordinated in VOICE 2K17 in technical event of Project expo 2k18<br><br>• Photography and MultiMedia skills.</span>
+</div>
+<div id="wb_Text88">
+<span style="color:#696969;font-family:Arial;font-size:16px;line-height:18px;">&nbsp; </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid31">
+<div id="LayoutGrid31">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text62">
+&nbsp;
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid30">
+<div id="LayoutGrid30">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<a id="Button3" href="./pdf/r.pdf"  target="_blank" style="display:inline-block;width:256px;height:39px;z-index:180;">Download Resume</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid37">
+<div id="LayoutGrid37">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text86">
+&nbsp;
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:182;">
+<h1 id="Heading2">Contact Me</h1>
+</div>
+<div id="wb_Shape3" style="display:inline-block;width:111px;height:6px;z-index:183;position:relative;">
+<div id="Shape3"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid33">
+<form name="LayoutGrid6" method="post" action="mailto:yourname@yourdomain.com" enctype="text/plain" id="LayoutGrid33">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text74">
+<span style="color:#696969;font-family:Arial;font-size:13px;">Guntur District,<br>Andhra Pradesh State, India<br><br>7013016691<br>roopchandsai98@gmail.com</span>
+</div>
+<div id="wb_FontAwesomeIcon3" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:185;">
+<a href="sms:7013016691" target="_blank" ><div id="FontAwesomeIcon3"><i class="fa fa-whatsapp"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon8" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:186;">
+<a href="mailto:roopchandsai98@gmail.com" target="_blank" ><div id="FontAwesomeIcon8"><i class="fa fa-envelope-o"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon10" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:187;">
+<a href="https://in.linkedin.com/in/roop-chand-sai-kanchi-232380198" target="_blank" ><div id="FontAwesomeIcon10"><i class="fa fa-linkedin"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon11" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:188;">
+<a href="https://github.com/roopchandsai" target="_blank" ><div id="FontAwesomeIcon11"><i class="fa fa-github"></i></div></a>
+</div>
+</div>
+</div>
+</form>
+</div>
+<div id="wb_LayoutGrid32">
+<div id="LayoutGrid32">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text73">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">© Website Author: Roop Chand Sai</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_LayoutGrid35">
+<div id="LayoutGrid35">
+<div class="row">
+<div class="col-1">
+<label for="" id="Label12" style="display:inline-block;width:76px;line-height:16px;z-index:190;">Count:</label>
+</div>
+<div class="col-2">
+<label for="" id="Label13" style="display:inline-block;width:76px;line-height:16px;z-index:191;"> <a href='http://xn--besucherzhlerkostenlos-84b.com/'>besucherzählerkostenlos.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d5cabbad87d3290ef151e83cfa98c252b7c2ca0b'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/921102/t/5"></script></label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
