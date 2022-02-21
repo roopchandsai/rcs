@@ -1,2 +1,0 @@
-# rcs
-Roop Chand Sai
