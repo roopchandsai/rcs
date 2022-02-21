@@ -969,7 +969,7 @@ input:focus, textarea:focus, select:focus
 }
 #ThemeableMenu2 li a
 {
-   color: #A2A2A2;
+   color: #ffffff;
    -webkit-transition: color 500ms linear 0ms;
    transition: color 500ms linear 0ms;
 }
