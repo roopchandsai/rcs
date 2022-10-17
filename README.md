@@ -1,5 +1,5 @@
-# rcs
-#This website is created by roopchandsai.
+#Portfolio website 
+#This Portfolio website is created by Roop Chand Sai.
 
 #MIT License
 
