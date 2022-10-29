@@ -1242,33 +1242,52 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    font-size: 0px;
 }
-#Button1
-{
-   box-sizing: border-box;
-   line-height: 32px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #008B8B;
-   border-radius: 2px;
-   background-color: #008B8B;
-   background-image: none;
-   color: #FFFFFF;
-   box-shadow: 4px 4px 3px #A9A9A9;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 19px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-flex-grow: 0;
-   flex-grow: 0;
-   -webkit-flex-shrink: 0;
-   flex-shrink: 0;
-   -webkit-align-self: auto;
-   align-self: auto;
-   -webkit-appearance: none;
-   margin: 0;
+#button1 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
 }
+
+#button1:hover,
+#button1:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+#button1:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+#button1:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
 #wb_FlexContainer2
 {
    background-color: transparent;
