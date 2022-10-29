@@ -58,6 +58,7 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    margin-left: auto;
    max-width: 1024px;
+   filter: drop-shadow(8px 8px 8px rgba(33, 66, 37, 0.62));
 }
 #LayoutGrid1
 {
@@ -1269,6 +1270,7 @@ input:focus, textarea:focus, select:focus
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
+  filter: drop-shadow(8px 8px 8px rgba(35, 35, 77, 0.61));
 }
 
 #button1:hover,
