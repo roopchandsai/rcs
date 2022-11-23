@@ -165,7 +165,7 @@ input:focus, textarea:focus, select:focus
 #LayoutGrid34
 {
    box-sizing: border-box;
-   padding: 25px 15px 25px 15px;
+   padding: 0px 0px 0px 0px;
    margin-right: auto;
    margin-left: auto;
 }
