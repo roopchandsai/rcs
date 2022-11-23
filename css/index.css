@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 #wb_LayoutGrid1
 {
    clear: both;
-   position: fixed;
+   position: sticky;
    left: 0;
    right: 0;
    top: 0;
