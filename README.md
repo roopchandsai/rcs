@@ -5,8 +5,7 @@
 
 Copyright (c) 2022 Roop Chand Sai.
 
-All these documents belong to the owner alone and are not being shared to anyone, Just hosting a Portfolio website of Roop Chand Sai through github.
-Please don't copy or share these.
+All these documents belong to the owner alone and are not being shared to anyone, Just hosting a Portfolio Website through github. Please don't copy or share these.
 
 The above copyright notice shall be included in all copies or substantial portions of the Software.
 
